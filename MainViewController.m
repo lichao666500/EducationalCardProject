@@ -42,6 +42,8 @@
 #pragma mark 初始化子控制器
 - (void)_initViewControllers
 {
+    NSLog(@"123");
+    
     //学习模块
     LearnViewController *learn=[[LearnViewController alloc] init];
     UINavigationController *navLearn=[[UINavigationController alloc] initWithRootViewController:learn];
